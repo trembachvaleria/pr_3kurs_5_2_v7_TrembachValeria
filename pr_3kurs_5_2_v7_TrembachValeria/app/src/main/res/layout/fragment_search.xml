@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/black">
+
+    <EditText
+        android:id="@+id/editQuery"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/nazvan"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/naiti"
+        android:background="@drawable/button"/>
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/soxr"
+        android:background="@drawable/button"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnFavorites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/izbran"
+        android:background="@drawable/button"/>
+</LinearLayout>

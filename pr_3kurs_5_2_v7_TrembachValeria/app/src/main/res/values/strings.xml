@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Кинопоиск</string>
+    <string name="izbr">Избранные фильмы:</string>
+    <string name="naz">Назад</string>
+    <string name="del">Удалить выбранный</string>
+    <string name="nazvan">Название фильма</string>
+    <string name="naiti">Найти</string>
+    <string name="soxr">Сохранить в избранное</string>
+    <string name="izbran">Избранное</string>
+    <string name="log">Логин</string>
+    <string name="pass">Пароль</string>
+    <string name="povt">Повторите пароль</string>
+    <string name="voiti">Войти</string>
+    <string name="reg">Зарегистрироваться</string>
+</resources>
